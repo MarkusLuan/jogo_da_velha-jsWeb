@@ -1,0 +1,11 @@
+#game_content table td {
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 20pt;
+}
+
+#game_content table td:hover {
+    cursor: pointer;
+}
