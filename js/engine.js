@@ -1,14 +1,15 @@
 const game_content = document.getElementById("game_content");
+const tbl_game_grid = document.getElementById("tbl_game_grid");
+
 const quant_players = 2;
 
 let player_atual = 1;
 let jogadas = 0;
 
 function iniciar_jogo(){
-    game_content.innerHTML = "";
-    player_atual = 1;
+    tbl_game_grid.innerHTML = "";
 
-    let table = document.createElement("table");
+    player_atual = 1;    
     
     for (let linha=0; linha<3; linha+=1) {
         let tr = document.createElement("tr");
@@ -17,10 +18,8 @@ function iniciar_jogo(){
             td.onclick = on_grid_click;
             tr.append(td);
         }
-        table.append(tr);
+        tbl_game_grid.append(tr);
     }
-
-    game_content.append(table);
 }
 
 function on_grid_click() {
