@@ -1,4 +1,4 @@
-#game_content h1, #game_content h2  {
+#game_content > h1, #game_content > h2, #game_content > p  {
     text-align: center;
 }
 
