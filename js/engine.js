@@ -28,7 +28,7 @@ function iniciar_players() {
         let b = parseInt(Math.random() * 255);
         let cor = `rgb(${r}, ${g}, ${b})`;
 
-        let letra = letras[parseInt(Math.random() * 26)];
+        let letra = (a == 0) ? "X" : "O";
 
         let player = Player(`Player ${a+1}`, cor, letra);
         players.push(player);
