@@ -3,6 +3,7 @@ const Player = (nome, cor, letra) => {
         nome: nome,
         cor: cor,
         letra: letra,
-        jogadas: 0
+        jogadas: 0,
+        vitorias: 0
     };
 };

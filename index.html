@@ -10,7 +10,7 @@
     <body>
         <div id="game_content" >
             <h1 id="txt_player">Player 1 - X</h1>
-            <p id="txt_player_plays">Jogadas: 0</p>
+            <p id="txt_player_plays">Jogadas na partida: 0 | Vitorias: 0</p>
             <table id="tbl_game_grid" ></table>
             <h2 id="txt_rodadas">Rodadas: 0</h2>
         </div>
@@ -18,6 +18,7 @@
         <script src="js/models.js" ></script>
         <script src="js/engine.js" ></script>
         <script>
+            iniciar_players();
             iniciar_jogo();
         </script>
     </body>
