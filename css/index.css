@@ -18,3 +18,10 @@
 #game_content table td:hover {
     cursor: pointer;
 }
+
+#game_content #bt_reiniciar {
+    cursor: pointer;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
