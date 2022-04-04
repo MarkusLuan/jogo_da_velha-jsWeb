@@ -1,4 +1,4 @@
-# jogo_da_velha-jsWeb
+# Jogo da velha
 Jogo criado usando apenas HTML, JS e CSS para realização do desafio do bootcamp Orbit Game Developer - DIO
 
 ![image](https://user-images.githubusercontent.com/19177386/161445652-f1593348-cd88-464f-ab69-f242a6fa970c.png)
